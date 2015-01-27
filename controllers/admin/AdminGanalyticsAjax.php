@@ -32,7 +32,7 @@ class AdminGanalyticsAjaxController extends ModuleAdminController
 	 */
 	public function initContent()
 	{
-		parent::initContent();
+		parent::initContent()
 
 		$order = new Order((int)Tools::getValue('orderid'));
 		$context = Context::getContext();
