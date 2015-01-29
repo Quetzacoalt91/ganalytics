@@ -26,6 +26,10 @@
 
 if (!defined('_PS_VERSION_'))
 	exit;
+function trucDeOuf()
+{
+	return "toto";
+}
 
 class Ganalytics extends Module
 {
