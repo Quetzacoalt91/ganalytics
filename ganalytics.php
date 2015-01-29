@@ -35,7 +35,7 @@ class Ganalytics extends Module
 {
 	protected $js_state = 0;
 	protected $eligible = 0;
-	protected $filterable = 1;
+	protected $filterable = 1
 
 	public function __construct()
 	{
